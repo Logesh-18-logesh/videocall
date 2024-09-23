@@ -66,7 +66,7 @@ class CallServer(StreamingServer):
                 break
 
 
-sender="192.168.1.6"
+sender=""  #ENTER THE SENDER IP (THE OTHER DEVICE)
 receiver=ip_address
 url1="https://images.unsplash.com/photo-1475139441338-693e7dbe20b6?auto=format&fit=crop&w=640&q=427"
 url2="https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D"
