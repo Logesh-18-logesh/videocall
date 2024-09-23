@@ -15,28 +15,44 @@ This repository contains both the modified library and the call.py file to call 
 ## HOW TO RUN THE FILE  ## 
 
 1.Install the required libraries:
+
     > opencv-python
+
     > opencv-python-headless
-    pyautogui \n
-    numpy \n
-    torch\n
-    torchvision\n
-    pillow\n
-    pyaudio\n
-    pickle\n
+    
+    > pyautogui 
+    
+    > numpy 
+    
+    > torch
+    
+    > torchvision
+    
+    > pillow
+    
+    > pyaudio
+    
+    > pickle
 
-2.Make sure you have both the vidstream_modified folder and the call.py file in same directory\n
+2.Make sure you have both the vidstream_modified folder and the call.py file in same directory
 
-3.In call.py line:69\n
-    enter the other device's IP address \n
+3.In call.py line:69
 
-4.Run the call.py file\n
+    enter the other device's IP address 
+    
+4.Run the call.py file
 
 
 ## HOW THE CODE WORKS: ##
-1.It displays the IP address of the device which should be entered in the other device\n
-2.Asks what type of background needed\n
-3.The selected background will be retrieved from the url and will be given for vidstream library\n
-4.The vidstream library is responsible for the streaming \n
-5.The cameraclient captures the frames from webcam which will be given to the depplabv3 model for foreground and background identification\n
-6.The background will be modified according to the user request and will be sent to the other device for streaming\n
+
+1.It displays the IP address of the device which should be entered in the other device
+
+2.Asks what type of background needed
+
+3.The selected background will be retrieved from the url and will be given for vidstream library
+
+4.The vidstream library is responsible for the streaming 
+
+5.The cameraclient captures the frames from webcam which will be given to the depplabv3 model for foreground and background identification
+
+6.The background will be modified according to the user request and will be sent to the other device for streaming
